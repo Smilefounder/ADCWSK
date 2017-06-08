@@ -1,21 +1,16 @@
-﻿using Swastika.UI.Base.Extensions.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Reflection;
+﻿using System.Collections.Generic;
 
-namespace Swastika.UI.Base.Extensions
-{
+namespace Swastika.UI.Base.Extensions {
+
     /// <summary>
-    /// 
+    ///
     /// </summary>
-    public class ExtensionManager
-    {
+    public class ExtensionManager {
+
         /// <summary>
         /// Initializes the <see cref="ExtensionManager" /> class.
         /// </summary>
-        static ExtensionManager()
-        {
+        static ExtensionManager() {
             Extensions = new List<ExtensionInfo>();
         }
 
@@ -26,6 +21,7 @@ namespace Swastika.UI.Base.Extensions
         /// The extensions.
         /// </value>
         public static IList<ExtensionInfo> Extensions { get; set; }
+
         /// <summary>
         /// Gets or sets the relative path.
         /// </summary>
